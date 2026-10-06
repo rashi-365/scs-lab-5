@@ -1,0 +1,225 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\lab-5\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1791261253574,
+      "contentHash": "b280b5bdd574e6f8205722bf1b460448",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\lab-5\\contracts\\SlippageSwap.sol": {
+      "lastModificationDate": 1791261253546,
+      "contentHash": "f804653c8f40d6876ae1021d355a3ffe",
+      "sourceName": "contracts/SlippageSwap.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "SlippageSwap"
+      ]
+    },
+    "D:\\lab-5\\contracts\\SealedBidAuction.sol": {
+      "lastModificationDate": 1791261253542,
+      "contentHash": "718507d2a305c29293f332610e3832f8",
+      "sourceName": "contracts/SealedBidAuction.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "SealedBidAuction"
+      ]
+    },
+    "D:\\lab-5\\contracts\\LuckyDraw.sol": {
+      "lastModificationDate": 1791261253531,
+      "contentHash": "9d95a62978ee60ba449484283e5d4012",
+      "sourceName": "contracts/LuckyDraw.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "LuckyDraw"
+      ]
+    },
+    "D:\\lab-5\\contracts\\mocks\\MockERC20.sol": {
+      "lastModificationDate": 1791261253556,
+      "contentHash": "1e45f0d1e1769e561faa933dec67c9f7",
+      "sourceName": "contracts/mocks/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    },
+    "D:\\lab-5\\contracts\\mocks\\RevertingReceiver.sol": {
+      "lastModificationDate": 1791261253561,
+      "contentHash": "d029e0a772321c93e1f331d6524c52c4",
+      "sourceName": "contracts/mocks/RevertingReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "RevertingReceiver"
+      ]
+    }
+  }
+}

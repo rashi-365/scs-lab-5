@@ -1,0 +1,14 @@
+{
+  "name": "scs-lab4-ordering-time",
+  "version": "1.0.0",
+  "description": "SCS Auditing Unit III Lab 4 - Ordering & Time Dependence",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
